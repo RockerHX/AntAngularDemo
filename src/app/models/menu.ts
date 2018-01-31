@@ -12,7 +12,7 @@ export class ItemsModel {
 export const MENUS: MenuModel[] = [
     {
       title: 'General',
-      icon: 'anticon-appstore',
+      icon: 'appstore',
       items: [
         { title: 'Button 按钮', url: '/general-button'},
         { title: 'Icon 图标', url: '/general-icon'}

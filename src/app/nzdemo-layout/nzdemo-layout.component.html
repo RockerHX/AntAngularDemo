@@ -8,16 +8,20 @@
     <nz-sider [nzWidth]="200">
       <ul nz-menu [nzMode]="'inline'" style="height:100%">
         <li nz-submenu *ngFor="let menu of menus">
-          <span title><i class="anticon {{menu.icon}}"></i>{{menu.title}}</span>
+          <span title><i class="anticon anticon-{{menu.icon}}"></i>{{menu.title}}</span>
           <ul>
-            <li nz-menu-item *ngFor="let item of menu.items">{{item.title}}</li>
+            <li nz-menu-item *ngFor="let item of menu.items">{{item.title}}
+              <a routerLink={{item.url}}></a>
+            </li>
           </ul>
         </li>
       </ul>
     </nz-sider>
 
     <nz-layout class="layout-content">
-      <nz-content>Content</nz-content>
+      <nz-content>
+        <router-outlet></router-outlet>
+      </nz-content>
     </nz-layout>
 
   </nz-layout>
