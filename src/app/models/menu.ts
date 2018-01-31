@@ -1,20 +1,21 @@
 export class MenuModel {
     title: String;
-    subMenus: Array<SubMenuModel>;
+    icon: String;
+    items: Array<ItemsModel>;
 }
 
-export class SubMenuModel {
+export class ItemsModel {
     title: String;
     url: String;
 }
 
-
 export const MENUS: MenuModel[] = [
     {
-      title: 'Basic',
-      subMenus: [
-        { title: 'Layout 布局', url: '/basic-layout'},
-        { title: 'Container 布局容器', url: '/basic-container'}
+      title: 'General',
+      icon: 'anticon-appstore',
+      items: [
+        { title: 'Button 按钮', url: '/general-button'},
+        { title: 'Icon 图标', url: '/general-icon'}
       ]
     }
 ];
