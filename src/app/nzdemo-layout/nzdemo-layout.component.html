@@ -7,29 +7,10 @@
   <nz-layout class="layout-container">
     <nz-sider [nzWidth]="200">
       <ul nz-menu [nzMode]="'inline'" style="height:100%">
-        <li nz-submenu>
-          <span title><i class="anticon anticon-user"></i>General</span>
+        <li nz-submenu *ngFor="let menu of menus">
+          <span title><i class="anticon {{menu.icon}}"></i>{{menu.title}}</span>
           <ul>
-            <li nz-menu-item>Button按钮</li>
-            <li nz-menu-item>Icon图标</li>
-          </ul>
-        </li>
-        <li nz-submenu>
-          <span title><i class="anticon anticon-laptop"></i>subnav 2</span>
-          <ul>
-            <li nz-menu-item>option5</li>
-            <li nz-menu-item>option6</li>
-            <li nz-menu-item>option7</li>
-            <li nz-menu-item>option8</li>
-          </ul>
-        </li>
-        <li nz-submenu>
-          <span title><i class="anticon anticon-notification"></i>subnav 3</span>
-          <ul>
-            <li nz-menu-item>option9</li>
-            <li nz-menu-item>option10</li>
-            <li nz-menu-item>option11</li>
-            <li nz-menu-item>option12</li>
+            <li nz-menu-item *ngFor="let item of menu.items">{{item.title}}</li>
           </ul>
         </li>
       </ul>
