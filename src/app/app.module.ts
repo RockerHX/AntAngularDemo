@@ -12,13 +12,15 @@ import { AppComponent } from './app.component';
 import { NzdemoLayoutComponent } from './nzdemo-layout/nzdemo-layout.component';
 import { NzdemoButtonComponent } from './nzdemo-button/nzdemo-button.component';
 import { NzdemoIconComponent } from './nzdemo-icon/nzdemo-icon.component';
+import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NzdemoLayoutComponent,
     NzdemoButtonComponent,
-    NzdemoIconComponent
+    NzdemoIconComponent,
+    NzdemoGridComponent
   ],
   imports: [
     BrowserModule,

@@ -17,5 +17,12 @@ export const MENUS: MenuModel[] = [
         { title: 'Button 按钮', url: '/general-button'},
         { title: 'Icon 图标', url: '/general-icon'}
       ]
-    }
+    },
+    {
+        title: 'Layout',
+        icon: 'layout',
+        items: [
+          { title: 'Grid 栅格', url: '/general-grid'}
+        ]
+      }
 ];
