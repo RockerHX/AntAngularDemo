@@ -1,0 +1,9 @@
+.header-title {
+    font-size: 3em;
+    color: azure;
+}
+
+.ant-layout .layout-content {
+    padding: 1em;
+    background: white;
+}
