@@ -1,3 +1,29 @@
-<p>
-  nzdemo-affix works!
-</p>
+<div class="app-nzdemo-affix">
+  <nz-affix>
+    <button nz-button [nzType]="'primary'">
+        <span>Affix Button</span>
+    </button>
+  </nz-affix>
+</div>
+
+
+<div class="app-nzdemo-affix">
+  <nz-affix [nzOffsetTop]="120" (nzChange)="onChange($event)">
+    <button nz-button>
+        <span>120px to affix top</span>
+    </button>
+  </nz-affix>
+</div>
+
+
+<div class="app-nzdemo-affix">
+  <div class="scrollable-container" #target>
+    <div class="background">
+      <nz-affix [nzTarget]="target" id="affix-container-target">
+        <button nz-button [nzType]="'primary'">
+            <span>Fixed at the top of container</span>
+        </button>
+      </nz-affix>
+    </div>
+  </div>
+</div>

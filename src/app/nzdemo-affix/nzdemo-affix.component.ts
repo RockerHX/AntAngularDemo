@@ -12,4 +12,8 @@ export class NzdemoAffixComponent implements OnInit {
   ngOnInit() {
   }
 
+  onChange(status: boolean) {
+    console.log(status);
+  }
+
 }

@@ -1,0 +1,18 @@
+div.app-nzdemo-affix {
+    border: 1px gray;
+    border-radius: 4px;
+    border-style: dashed;
+    padding: 2em;
+    margin: 1em;
+}
+
+:host ::ng-deep .scrollable-container {
+    height: 900px;
+    overflow-y: scroll;
+}
+
+:host ::ng-deep .background {
+    padding-top: 60px;
+    height: 2000px;
+    background-image: url(//zos.alipayobjects.com/rmsportal/RmjwQiJorKyobvI.jpg);
+}
