@@ -19,11 +19,18 @@ export const MENUS: MenuModel[] = [
       ]
     },
     {
-        title: 'Layout',
-        icon: 'layout',
-        items: [
-          { title: 'Grid 栅格', url: '/general-grid'},
-          { title: 'Layout 布局', url: '/general-layout'}
-        ]
-      }
+      title: 'Layout',
+      icon: 'layout',
+      items: [
+        { title: 'Grid 栅格', url: '/general-grid'},
+        { title: 'Layout 布局', url: '/general-layout'}
+      ]
+    },
+    {
+      title: 'Navigation',
+      icon: 'file',
+      items: [
+        { title: 'Affix 固钉', url: '/general-affix'}
+      ]
+    }
 ];

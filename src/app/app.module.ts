@@ -13,6 +13,7 @@ import { NzdemoLayoutComponent } from './nzdemo-layout/nzdemo-layout.component';
 import { NzdemoButtonComponent } from './nzdemo-button/nzdemo-button.component';
 import { NzdemoIconComponent } from './nzdemo-icon/nzdemo-icon.component';
 import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
+import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
     NzdemoLayoutComponent,
     NzdemoButtonComponent,
     NzdemoIconComponent,
-    NzdemoGridComponent
+    NzdemoGridComponent,
+    NzdemoAffixComponent
   ],
   imports: [
     BrowserModule,
