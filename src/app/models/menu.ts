@@ -31,7 +31,8 @@ export const MENUS: MenuModel[] = [
       icon: 'file',
       items: [
         { title: 'Affix 固钉', url: '/general-affix'},
-        { title: 'Breadcrumb 面包屑', url: '/general-breadcrumb'}
+        { title: 'Breadcrumb 面包屑', url: '/general-breadcrumb'},
+        { title: 'Dropdown 下拉菜单', url: '/general-dropdown'}
       ]
     }
 ];

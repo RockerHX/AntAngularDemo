@@ -6,6 +6,7 @@ import { NzdemoIconComponent } from './nzdemo-icon/nzdemo-icon.component';
 import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
 import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb.component';
+import { NzdemoDropdownComponent } from './nzdemo-dropdown/nzdemo-dropdown.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'general-icon', component: NzdemoIconComponent },
   { path: 'general-grid', component: NzdemoGridComponent },
   { path: 'general-affix', component: NzdemoAffixComponent },
-  { path: 'general-breadcrumb', component: NzdemoBreadcrumbComponent }
+  { path: 'general-breadcrumb', component: NzdemoBreadcrumbComponent },
+  { path: 'general-dropdown', component: NzdemoDropdownComponent }
 ];
 
 @NgModule({

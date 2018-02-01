@@ -15,6 +15,7 @@ import { NzdemoIconComponent } from './nzdemo-icon/nzdemo-icon.component';
 import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
 import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb.component';
+import { NzdemoDropdownComponent } from './nzdemo-dropdown/nzdemo-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb
     NzdemoIconComponent,
     NzdemoGridComponent,
     NzdemoAffixComponent,
-    NzdemoBreadcrumbComponent
+    NzdemoBreadcrumbComponent,
+    NzdemoDropdownComponent
   ],
   imports: [
     BrowserModule,
