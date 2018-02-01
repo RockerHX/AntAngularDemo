@@ -1,0 +1,7 @@
+div.app-nzdemo-breadcrumb {
+    border: 1px gray;
+    border-radius: 4px;
+    border-style: dashed;
+    padding: 2em;
+    margin: 1em;
+}
