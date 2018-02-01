@@ -22,7 +22,8 @@ export const MENUS: MenuModel[] = [
         title: 'Layout',
         icon: 'layout',
         items: [
-          { title: 'Grid 栅格', url: '/general-grid'}
+          { title: 'Grid 栅格', url: '/general-grid'},
+          { title: 'Layout 布局', url: '/general-layout'}
         ]
       }
 ];

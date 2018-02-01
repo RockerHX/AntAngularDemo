@@ -5,3 +5,134 @@ div.app-nzdemo-grid {
     padding: 2em;
     margin: 1em;
 }
+
+.ant-row {
+    padding: 1em;
+}
+
+.ant-col-12 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: #00a0e9;
+}
+
+div.ant-col-12:first-child {
+    background: rgba(0,160,233,.7);
+}
+
+.ant-col-8 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: #00a0e9;
+}
+
+div.ant-col-8:first-child {
+    background: rgba(0,160,233,.7);
+}
+
+div.ant-col-8:last-child {
+    background: rgba(0,160,233,.7);
+}
+
+.ant-col-6 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: #00a0e9;
+}
+
+div.basic-example div.ant-col-6:nth-child(odd) {
+    background: rgba(0,160,233,.7);
+}
+
+/* gutter-example */
+.gutter-row {
+    background: white;
+}
+
+.gutter-box {
+    background: #00a0e9
+}
+
+/* push-example */
+.ant-col-18 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: rgba(0,160,233,.7);
+}
+
+div.push-example div.ant-col-4 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: #00a0e9;
+}
+
+/* flex-example */
+div.flex-example div.ant-col-4 {
+    font-size: 1em;
+    color: white;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    background: #00a0e9;
+}
+
+div.flex-example div.ant-col-4:nth-child(odd) {
+    background: rgba(0,160,233,.7);
+}
+
+div.flex-example div.ant-row-flex {
+    background: lightgray;
+}
+
+div.flex-example p {
+    font-size: 1em;
+    padding: 1em;
+}
+
+/* flex-align-example */
+div.flex-align-example div.ant-row-flex {
+    background: lightgray;
+    height: 200px;
+}
+
+div.flex-align-example div.ant-col-4 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    background: #00a0e9;
+}
+
+.height-50 {
+    height: 50px;
+    line-height: 50px;
+}
+
+.height-80 {
+    height: 80px;
+    line-height: 80px;
+}
+
+.height-100 {
+    height: 100px;
+    line-height: 100px;
+}
+
+.height-120 {
+    height: 120px;
+    line-height: 120px;
+}
