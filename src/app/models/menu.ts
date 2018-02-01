@@ -30,7 +30,8 @@ export const MENUS: MenuModel[] = [
       title: 'Navigation',
       icon: 'file',
       items: [
-        { title: 'Affix 固钉', url: '/general-affix'}
+        { title: 'Affix 固钉', url: '/general-affix'},
+        { title: 'Breadcrumb 面包屑', url: '/general-breadcrumb'}
       ]
     }
 ];

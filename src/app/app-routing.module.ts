@@ -5,13 +5,15 @@ import { NzdemoButtonComponent } from './nzdemo-button/nzdemo-button.component';
 import { NzdemoIconComponent } from './nzdemo-icon/nzdemo-icon.component';
 import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
+import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'general-button', component: NzdemoButtonComponent },
   { path: 'general-icon', component: NzdemoIconComponent },
   { path: 'general-grid', component: NzdemoGridComponent },
-  { path: 'general-affix', component: NzdemoAffixComponent }
+  { path: 'general-affix', component: NzdemoAffixComponent },
+  { path: 'general-breadcrumb', component: NzdemoBreadcrumbComponent }
 ];
 
 @NgModule({
