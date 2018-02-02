@@ -7,6 +7,7 @@ import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
 import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb.component';
 import { NzdemoDropdownComponent } from './nzdemo-dropdown/nzdemo-dropdown.component';
+import { NzdemoMenuComponent } from './nzdemo-menu/nzdemo-menu.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'general-grid', component: NzdemoGridComponent },
   { path: 'general-affix', component: NzdemoAffixComponent },
   { path: 'general-breadcrumb', component: NzdemoBreadcrumbComponent },
-  { path: 'general-dropdown', component: NzdemoDropdownComponent }
+  { path: 'general-dropdown', component: NzdemoDropdownComponent },
+  { path: 'general-menu', component: NzdemoMenuComponent }
 ];
 
 @NgModule({
