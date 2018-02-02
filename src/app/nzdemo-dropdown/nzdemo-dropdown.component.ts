@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NzdemoDropdownComponent implements OnInit {
 
+  visible = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  log(data) {
+    console.log(data);
   }
 
 }

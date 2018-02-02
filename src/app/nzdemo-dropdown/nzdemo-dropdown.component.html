@@ -1,3 +1,228 @@
-<p>
-  nzdemo-dropdown works!
-</p>
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown>
+    <a class="ant-dropdown-link" nz-dropdown>
+      Hover me <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown>
+    <a class="ant-dropdown-link" nz-dropdown>
+      Hover me <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item</a>
+      </li>
+      <li nz-menu-divider></li>
+      <li nz-menu-item nzDisable>3rd menu item（disabled）</li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown>
+    <a class="ant-dropdown-link" nz-dropdown>
+      Hover me, Click menu item <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item (click)="log('1st menu item')">1st menu item</li>
+      <li nz-menu-item (click)="log('2nd menu item')">2nd menu item</li>
+      <li nz-menu-item (click)="log('3rd menu item')">3rd menu item</li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown>
+    <a class="ant-dropdown-link" nz-dropdown>
+      Cascading menu <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item>1st menu item</li>
+      <li nz-menu-item>2nd menu item</li>
+      <li nz-submenu>
+        <span title>sub menu</span>
+        <ul>
+          <li nz-menu-item>3rd menu item</li>
+          <li nz-menu-item>4th menu item</li>
+        </ul>
+      </li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown [nzPlacement]="'bottomLeft'">
+    <button nz-button nz-dropdown>bottomLeft</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+  <nz-dropdown [nzPlacement]="'bottomCenter'">
+    <button nz-button nz-dropdown>bottomCenter</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+  <nz-dropdown [nzPlacement]="'bottomRight'">
+    <button nz-button nz-dropdown>bottomRight</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+  <nz-dropdown [nzPlacement]="'topLeft'">
+    <button nz-button nz-dropdown>topLeft</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+  <nz-dropdown [nzPlacement]="'topCenter'">
+    <button nz-button nz-dropdown>topCenter</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+  <nz-dropdown [nzPlacement]="'topRight'">
+    <button nz-button nz-dropdown>topRight</button>
+    <ul nz-menu>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item length</a>
+      </li>
+      <li nz-menu-item>
+        <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item length</a>
+      </li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown [nzTrigger]="'click'">
+    <a href class="ant-dropdown-link" nz-dropdown>
+      Click me <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item>1st menu item</li>
+      <li nz-menu-item>2nd menu item</li>
+      <li nz-menu-item>3rd menu item</li>
+    </ul>
+  </nz-dropdown>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <div style="height: 28px;">
+    <nz-dropdown-button (nzClick)="log($event)">
+      DropDown
+      <ul nz-menu>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item</a>
+        </li>
+      </ul>
+    </nz-dropdown-button>
+    <nz-dropdown-button nzDisabled>
+      DropDown
+      <ul nz-menu>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item</a>
+        </li>
+      </ul>
+    </nz-dropdown-button>
+    <nz-dropdown>
+      <button nz-button nz-dropdown><span>Button</span> <i class="anticon anticon-down"></i></button>
+      <ul nz-menu>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">2nd menu item</a>
+        </li>
+        <li nz-menu-item>
+          <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">3rd menu item</a>
+        </li>
+      </ul>
+    </nz-dropdown>
+  </div>
+</div>
+
+<div class="app-nzdemo-dropdown">
+  <nz-dropdown [nzClickHide]="false" [(nzVisible)]="visible">
+    <a class="ant-dropdown-link" nz-dropdown>
+      Hover me <i class="anticon anticon-down"></i>
+    </a>
+    <ul nz-menu>
+      <li nz-menu-item>Clicking me will not close the menu.</li>
+      <li nz-menu-item>Clicking me will not close the menu also.</li>
+      <li nz-menu-item (click)="visible = false">Clicking me will close the menu</li>
+    </ul>
+  </nz-dropdown>
+</div>
