@@ -16,7 +16,6 @@ import { NzdemoGridComponent } from './nzdemo-grid/nzdemo-grid.component';
 import { NzdemoAffixComponent } from './nzdemo-affix/nzdemo-affix.component';
 import { NzdemoBreadcrumbComponent } from './nzdemo-breadcrumb/nzdemo-breadcrumb.component';
 import { NzdemoDropdownComponent } from './nzdemo-dropdown/nzdemo-dropdown.component';
-import { MenuComponent } from './menu/menu.component';
 import { NzdemoMenuComponent } from './nzdemo-menu/nzdemo-menu.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { NzdemoMenuComponent } from './nzdemo-menu/nzdemo-menu.component';
     NzdemoAffixComponent,
     NzdemoBreadcrumbComponent,
     NzdemoDropdownComponent,
-    MenuComponent,
     NzdemoMenuComponent
   ],
   imports: [
